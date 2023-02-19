@@ -15,9 +15,9 @@ def number_of_belts(belts: list):
   for belt in set(belts):
     num = belts.count(belt)
     if num > 1:
-      print(f'They are {num} {belt} blets')
+      print(f'They are {num} {belt} belts')
     else:
-      print(f'They is {num} {belt} blet')
+      print(f'They is {num} {belt} belt')
 
 def print_another_name(): 
   print('')
